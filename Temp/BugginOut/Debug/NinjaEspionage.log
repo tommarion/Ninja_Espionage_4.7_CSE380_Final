@@ -1,0 +1,24 @@
+﻿Build started 4/15/2014 6:18:33 PM.
+     1>Project "C:\Users\tomma_000\Documents\Visual Studio 2013\Projects\Ninja_Espionage Basis\Ninja_Espionage Basis\NinjaEspionage\NinjaEspionage.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\tomma_000\Documents\Visual Studio 2013\Projects\Ninja_Espionage Basis\Ninja_Espionage Basis\Temp\BugginOut\Debug\\" /Fd"C:\Users\tomma_000\Documents\Visual Studio 2013\Projects\Ninja_Espionage Basis\Ninja_Espionage Basis\Temp\BugginOut\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\buggin_out\NinjaEspionage.cpp src\buggin_out\NinjaEspionageButtonEventHandler.cpp src\buggin_out\NinjaEspionageCollisionListener.cpp src\buggin_out\NinjaEspionageDataLoader.cpp src\buggin_out\NinjaEspionageKeyEventHandler.cpp src\buggin_out\NinjaEspionageTextGenerator.cpp src\buggin_out_VS\stdafx.cpp
+         stdafx.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'src\buggin_out_VS\stdafx.cpp': No such file or directory
+         NinjaEspionageTextGenerator.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'src\buggin_out\NinjaEspionageTextGenerator.cpp': No such file or directory
+         NinjaEspionageKeyEventHandler.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'src\buggin_out\NinjaEspionageKeyEventHandler.cpp': No such file or directory
+         NinjaEspionageDataLoader.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'src\buggin_out\NinjaEspionageDataLoader.cpp': No such file or directory
+         NinjaEspionageCollisionListener.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'src\buggin_out\NinjaEspionageCollisionListener.cpp': No such file or directory
+         NinjaEspionageButtonEventHandler.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'src\buggin_out\NinjaEspionageButtonEventHandler.cpp': No such file or directory
+         NinjaEspionage.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'src\buggin_out\NinjaEspionage.cpp': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\tomma_000\Documents\Visual Studio 2013\Projects\Ninja_Espionage Basis\Ninja_Espionage Basis\NinjaEspionage\NinjaEspionage.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.33

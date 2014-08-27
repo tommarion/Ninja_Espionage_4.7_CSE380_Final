@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type>
+ <width>256</width>
+ <height>256</height>
+ <images_list>
+  <image_file id="1"  file_name="IDLE_0.png"/>
+  <image_file id="2"  file_name="IDLE_1.png"/>
+  <image_file id="3"  file_name="IDLE_2.png"/>
+  <image_file id="4"  file_name="ATTACK_0.png"/>
+  <image_file id="5"  file_name="ATTACK_1.png"/>
+  <image_file id="6"  file_name="ATTACK_2.png"/>
+  <image_file id="7"  file_name="ATTACK_3.png"/>
+  <image_file id="8"  file_name="ATTACK_4.png"/>
+  <image_file id="9"  file_name="WARP_0.png"/>
+  <image_file id="10"  file_name="WARP_1.png"/>
+  <image_file id="11"  file_name="WARP_2.png"/>
+  <image_file id="12"  file_name="DYING_0.png"/>
+  <image_file id="13"  file_name="DYING_1.png"/>
+  <image_file id="14"  file_name="DYING_2.png"/>
+  <image_file id="15"  file_name="DYING_3.png"/>
+  <image_file id="16"  file_name="DYING_4.png"/>
+ </images_list>
+ <animations_list>
+  <animation_state>
+   <state>IDLE</state>
+   <animation_sequence>
+    <pose image_id="1" duration="10"/>
+    <pose image_id="2" duration="10"/>
+    <pose image_id="3" duration="10"/>
+   </animation_sequence>
+  </animation_state>
+  <animation_state>
+   <state>ATTACK</state>
+   <animation_sequence>
+    <pose image_id="4" duration="10"/>
+    <pose image_id="5" duration="10"/>
+    <pose image_id="6" duration="10"/>
+    <pose image_id="7" duration="10"/>
+    <pose image_id="8" duration="-1"/>
+   </animation_sequence>
+  </animation_state>
+  <animation_state>
+   <state>WARP</state>
+   <animation_sequence>
+    <pose image_id="9" duration="3"/>
+    <pose image_id="10" duration="3"/>
+    <pose image_id="11" duration="3"/>
+   </animation_sequence>
+  </animation_state>
+  <animation_state>
+   <state>DYING</state>
+   <animation_sequence>
+    <pose image_id="12" duration="15"/>
+    <pose image_id="13" duration="10"/>
+    <pose image_id="14" duration="10"/>
+    <pose image_id="15" duration="10"/>
+    <pose image_id="16" duration="-1"/>
+   </animation_sequence>
+  </animation_state>
+  <animation_state>
+   <state>DEAD</state>
+   <animation_sequence>
+    <pose image_id="16" duration="-1"/>
+   </animation_sequence>
+  </animation_state>
+ </animations_list>  
+</sprite_type>

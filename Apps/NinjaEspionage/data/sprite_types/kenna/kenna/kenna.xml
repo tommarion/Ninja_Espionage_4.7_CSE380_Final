@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type>
+ <width>64</width>
+ <height>64</height>
+ <images_list>
+  <image_file id="1" file_name="RUN_DOWN_1.png"/>
+  <image_file id="2" file_name="RUN_DOWN_2.png"/>
+  <image_file id="3" file_name="RUN_LEFT_1.png"/>
+  <image_file id="4" file_name="RUN_LEFT_2.png"/>
+  <image_file id="5" file_name="RUN_RIGHT_1.png"/>
+  <image_file id="6" file_name="RUN_RIGHT_2.png"/>
+  <image_file id="7" file_name="RUN_UP_1.png"/>
+  <image_file id="8" file_name="RUN_UP_2.png"/>
+  <image_file id="9" file_name="USE_DOWN_1.png"/>
+  <image_file id="10" file_name="USE_DOWN_2.png"/>
+  <image_file id="11" file_name="USE_LEFT_1.png"/>
+  <image_file id="12" file_name="USE_LEFT_2.png"/>
+  <image_file id="13" file_name="USE_RIGHT_1.png"/>
+  <image_file id="14" file_name="USE_RIGHT_2.png"/>
+  <image_file id="15" file_name="USE_UP_1.png"/>
+  <image_file id="16" file_name="USE_UP_2.png"/>
+  <image_file id="17" file_name="IDLE_UP.png"/>
+  <image_file id="18" file_name="IDLE_DOWN.png"/>
+  <image_file id="19" file_name="IDLE_LEFT.png"/>
+  <image_file id="20" file_name="IDLE_RIGHT.png"/>
+  <image_file id="21" file_name="DYING_1.png"/>
+  <image_file id="22" file_name="DYING_2.png"/>
+  <image_file id="23" file_name="DYING_3.png"/>
+ </images_list>
+ <animations_list>
+  <animation_state>
+   <state>IDLE_DOWN</state>
+   <animation_sequence>
+    <pose image_id="18" duration="10"/>
+   </animation_sequence>
+  </animation_state>
+  <animation_state>
+   <state>IDLE_UP</state>
+   <animation_sequence>
+    <pose image_id="17" duration="10"/>
+   </animation_sequence>
+  </animation_state>
+  <animation_state>
+   <state>IDLE_LEFT</state>
+   <animation_sequence>
+    <pose image_id="19" duration="10"/>
+   </animation_sequence>
+  </animation_state>
+  <animation_state>
+   <state>IDLE_RIGHT</state>
+   <animation_sequence>
+    <pose image_id="20" duration="10"/>
+   </animation_sequence>
+  </animation_state>
+  <animation_state>
+   <state>RUN_DOWN</state>
+   <animation_sequence>
+    <pose image_id="1" duration="2"/>
+    <pose image_id="2" duration="2"/>
+   </animation_sequence>
+  </animation_state>  <animation_state>
+   <state>RUN_LEFT</state>
+   <animation_sequence>
+    <pose image_id="3" duration="2"/>
+    <pose image_id="4" duration="2"/>
+   </animation_sequence>
+  </animation_state>
+  <animation_state>
+   <state>RUN_RIGHT</state>
+   <animation_sequence>
+    <pose image_id="5" duration="2"/>
+    <pose image_id="6" duration="2"/>
+   </animation_sequence>
+  </animation_state>
+  <animation_state>
+   <state>RUN_UP</state>
+   <animation_sequence>
+    <pose image_id="7" duration="3"/>
+    <pose image_id="8" duration="3"/>
+   </animation_sequence>
+  </animation_state>
+  <animation_state>
+   <state>USE_DOWN</state>
+   <animation_sequence>
+    <pose image_id="9" duration="2"/>
+    <pose image_id="10" duration="2"/>
+   </animation_sequence>
+  </animation_state>  <animation_state>
+   <state>USE_LEFT</state>
+   <animation_sequence>
+    <pose image_id="11" duration="2"/>
+    <pose image_id="12" duration="2"/>
+   </animation_sequence>
+  </animation_state>
+  <animation_state>
+   <state>USE_RIGHT</state>
+   <animation_sequence>
+    <pose image_id="13" duration="2"/>
+    <pose image_id="14" duration="2"/>
+   </animation_sequence>
+  </animation_state>
+  <animation_state>
+   <state>USE_UP</state>
+   <animation_sequence>
+    <pose image_id="15" duration="3"/>
+    <pose image_id="16" duration="3"/>
+   </animation_sequence>
+  </animation_state>
+  <animation_state>
+   <state>DYING</state>
+   <animation_sequence>
+    <pose image_id="21" duration="3"/>
+    <pose image_id="22" duration="3"/>
+    <pose image_id="23" duration="3"/>
+   </animation_sequence>
+  </animation_state>
+  <animation_state>
+   <state>DEAD</state>
+   <animation_sequence>
+    <pose image_id="23" duration="10"/>
+   </animation_sequence>
+  </animation_state>
+ </animations_list>  
+</sprite_type>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

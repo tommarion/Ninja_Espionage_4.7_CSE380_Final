@@ -1,0 +1,14 @@
+﻿Build started 5/14/2014 10:27:43 AM.
+     1>Project "C:\Users\Mark\Desktop\Ninja_Espionage_4.7\Ninja_Espionage_4.7\PoseurSpriteTypesImporter\PoseurSpriteTypesImporter.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Mark\Desktop\Ninja_Espionage_4.7\Ninja_Espionage_4.7\Temp\PoseurSpriteTypesImporter\Debug\\" /Fd"C:\Users\Mark\Desktop\Ninja_Espionage_4.7\Ninja_Espionage_4.7\Temp\PoseurSpriteTypesImporter\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\psti\PoseurSpriteTypesImporter.cpp
+         PoseurSpriteTypesImporter.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Mark\Desktop\Ninja_Espionage_4.7\Ninja_Espionage_4.7\Common\PoseurSpriteTypesImporter.lib" /NOLOGO C:\Users\Mark\Desktop\Ninja_Espionage_4.7\Ninja_Espionage_4.7\Temp\PoseurSpriteTypesImporter\Debug\PoseurSpriteTypesImporter.obj
+         C:\Users\Mark\Desktop\Ninja_Espionage_4.7\Ninja_Espionage_4.7\Temp\PoseurSpriteTypesImporter\Debug\stdafx.obj
+         PoseurSpriteTypesImporter.vcxproj -> C:\Users\Mark\Desktop\Ninja_Espionage_4.7\Ninja_Espionage_4.7\Common\PoseurSpriteTypesImporter.lib
+     1>Done Building Project "C:\Users\Mark\Desktop\Ninja_Espionage_4.7\Ninja_Espionage_4.7\PoseurSpriteTypesImporter\PoseurSpriteTypesImporter.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.14

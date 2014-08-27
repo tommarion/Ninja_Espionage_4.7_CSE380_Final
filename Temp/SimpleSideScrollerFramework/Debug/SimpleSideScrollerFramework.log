@@ -1,0 +1,49 @@
+﻿Build started 2014-05-14 오후 12:49:35.
+     1>Project "G:\Ninja_Espionage_4.7\SimpleSideScrollerFramework\SimpleSideScrollerFramework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\\" /Fd"G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\sssf\gsm\ai\bots\NinjaStar.cpp
+         NinjaStar.cpp
+     1>g:\ninja_espionage_4.7\simplesidescrollerframework\src\sssf\gsm\ai\bots\ninjastar.cpp(66): warning C4018: '>' : signed/unsigned mismatch
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\Ninja_Espionage_4.7\Common\SimpleSideScrollerFramework.lib" /NOLOGO G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\GameDataLoader.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\Game.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\WStringTable.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\GameGraphics.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\RenderList.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\TextureManager.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\BotRecycler.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\BossBot.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\NinjaStar.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\RandomObject.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\RandomGuard.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\AABB.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\CollidableObject.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\Physics.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\AnimatedSprite.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\AnimatedSpriteType.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\SpriteManager.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\GameStateManager.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\SparseLayer.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\TiledLayer.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\World.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\Button.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\Cursor.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\GameGUI.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\ScreenGUI.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\Viewport.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\GameInput.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\DirectXGraphics.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\DirectXTextureManager.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\WindowsInput.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\WindowsOS.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\WindowsTimer.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\BufferedTextFileReader.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\GameText.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\TextFileWriter.obj
+         G:\Ninja_Espionage_4.7\Temp\SimpleSideScrollerFramework\Debug\stdafx.obj
+         SimpleSideScrollerFramework.vcxproj -> G:\Ninja_Espionage_4.7\Common\SimpleSideScrollerFramework.lib
+     1>Done Building Project "G:\Ninja_Espionage_4.7\SimpleSideScrollerFramework\SimpleSideScrollerFramework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.42
